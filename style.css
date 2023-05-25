@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+:root{
+    /*colors*/
+    --Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue : hsl(217, 54%, 11%);
+--Very-dark-Blue : hsl(216, 50%, 16%);
+--Very-dark-BLUE : hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+/*fonts*/
+--font-size:18px;
+--font-family:'Outfit';
+--font-weight-light:300;
+--font-weight-regular:400;
+--font-weight-semibold:600;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--Very-dark-Blue);
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 1000px;
+}
+#container{
+    height: 570px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: var(--Very-dark-BLUE);
+    box-shadow: 12px 35px 0 0 var(--Very-dark-blue), -12px 35px 0 0 var(--Very-dark-blue);
+
+}
+#equilibrium{
+    border-radius: 10px;
+    width: 86%;
+    margin: 7%;
+}
+h2{
+    margin-left: 7%;
+    font-weight: var(--font-weight-semibold);
+    color: var(--White);
+    margin-top: -1%;
+}
+#description{
+    color: var(--Soft-blue);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size);
+    margin-left: 7%;
+    margin-top:4%;
+}
+#ethereum{
+    display: flex;
+    gap: 7px;
+    font-size:16px;
+    font-weight: var(--font-weight-light);
+    color: var(--Cyan);
+    margin-top: 30px;
+    margin-left: 7%;
+}
+#clock{
+display: flex;
+gap: 7px;    
+font-weight: var(--font-weight-light);
+color: var(--Soft-blue);
+margin-top: -20px;
+margin-left: 65%;
+}
+hr{
+    color: var(--Soft-blue);
+    height: 0.4px;
+    background-color: var(--Soft-blue);
+    border: none;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 8%;
+}
+#avatar{
+    border: 2px solid var(--White);
+    border-radius: 100%;
+    width: 12%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#footer{
+   display: flex; 
+   gap: 15px;
+   margin-top: 5%;
+   margin-left: 7%;
+}
+#footer>img{
+    border: 2px solid var(--White);
+    width: 50px;
+    border-radius: 100%;
+}
+#footer>p{
+    margin-top: 5%;
+    color: var(--White);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-light);
+}
+small{
+    color: var(--Soft-blue);
+    font-size: var(--font-size);
+}
